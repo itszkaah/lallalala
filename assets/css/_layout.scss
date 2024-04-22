@@ -1,0 +1,46 @@
+body {
+    color: rgb(134, 168, 168);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+.container {
+    max-width: 1140px;
+    border: 1px solid rgb(233, 231, 110);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(195, 216, 219, 0.4);
+}
+
+  .secao {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &.inicio {
+        background-image: url("https://s2-quem.glbimg.com/M24bIfTU_kI2VYWQckuqBbjyH8U=/0x0:1400x950/888x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_b0f0e84207c948ab8b8777be5a6a4395/internal_photos/bs/2024/F/t/uQbPK2RQGAkcqdXYDZ0w/mark.jpg");
+        background-size: cover;
+    }
+    &.contato {
+        background-color: rgb(218, 203, 152);
+    }
+    &.sobre {
+        background-color: rgb(99, 192, 204);
+    }
+    &.atividades {
+        background-color: rgb(54, 161, 175);
+    }
+  }
+
+  h1 {
+    color: rgb(175, 252, 188);
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+  }
+
